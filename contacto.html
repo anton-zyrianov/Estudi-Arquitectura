@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+
+<html lang="es">
+
+	<head>
+
+		<title>Contacto</title>
+
+		<meta name="description" content="Cualquier duda relacionada con el tema podeís enviar através del siguiente formulario" />
+
+		<link rel="stylesheet" href="css/style.css" />
+
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+	</head>
+
+	<body>
+
+		<header>
+			<div class="header_row">
+				<div class="logotipo">
+					<img src="img/edificios.svg" alt="Logo" class="logo">
+					<h1><span>Estudi</span>Arquitectura</h1>
+				</div>
+
+				<div class="sprites">
+					<ul>
+						<li id="facebook"><a href="#"></a></li>
+						<li id="twitter"><a href="#"></a></li>
+						<li id="pinterest"><a href="#"></a></li>
+						<li id="instagram"><a href="#"></a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="nav_row">
+				<div class="menu">
+					<input type="checkbox" id="btn-menu">
+					<label for="btn-menu">Menú</label>
+					<nav>
+						<ul>
+							<li><a href="index.html">INICIO</a></li>
+							<li><a href="#">EQUIPO</a></li>
+							<li><a href="#">PROYECTOS</a></li>
+							<li><a href="edificios_singulares.html">EDIFICIOS SINGULARES</a></li>
+							<li><a href="#">PREMIOS</a></li>
+							<li><a href="contacto.html">CONTACTO</a></li>
+						</ul>
+					</nav>
+				</div>
+
+				<div class="search">
+					<form action="#" method="get">
+						<input type="search" name="buscar" placeholder="Buscar" class="search_camp">
+						<input type="image" src="img/icon_search.svg" alt="Buscar" class="search_image">
+					</form>
+				</div>
+			</div>
+		</header>
+
+		<main>
+				<div class="container">
+					<form action="#" method="post">
+						<fieldset>
+							<legend>Datos personales</legend>
+							<div>
+								<label for="name" class="form_label">Nombre, apellidos<span class="text_red">*</span></label>
+								<input type="text" id="name" name="name" required="required" placeholder="Nombre y apellidos">
+							</div>
+
+							<div>
+								<label for="location" class="form_label">Localidad<span class="text_red">*</span></label>
+								<input type="text" id="location" name="location" required="required" placeholder="Localidad">
+							</div>
+
+							<div>
+								<label for="country" class="form_label">País<span class="text_red">*</span></label>
+								<input type="text" id="country" name="country" required="required" placeholder="País">
+							</div>
+						</fieldset>
+
+						<fieldset>
+							<legend>Datos de contacto</legend>
+
+							<div>
+								<label for="email" class="form_label">Email<span class="text_red">*</span></label>
+								<input type="email" id="email" name="email" required="required" placeholder="E-mail">
+							</div>
+
+							<div>
+								<label for="tel" class="form_label">Teléfono<span class="text_red">*</span></label>
+								<input type="tel" id="tel" name="tel" required="required" placeholder="Teléfono">
+							</div>
+							<div>
+								<label for="description" class="form_label">Explícanos tu proyecto</label>
+								<textarea name="description" id="description" cols="30" rows="5" placeholder="Descripción breve del proyecto"></textarea>
+							</div>
+						</fieldset>
+
+						<div class="aceptar">
+							<p><input type="checkbox" id="news" name="news"> <label for="news">Apuntarme al boletín de noticias</label></p>
+						</div>
+
+						<div class="aceptar">
+							<p><input type="checkbox" id="condition" name="condition" required="required"> <label for="condition"><span class="text_red"> * </span> Acepto las condiciones de privacidad</label></p>
+						</div>
+
+
+
+						<div class="botones">
+							<button class="reset" type="reset">Borrar datos</button>
+							<button class="send" type="submit">Enviar</button>
+						</div>
+					</form>
+				</div>
+
+		</main>
+
+		<footer>
+			<div class="about">
+				<div class="about_body">
+					<div class="about_row">
+							<div class="item_right">
+								<ul>
+									<li><a href="#">Colegio de Arquitectura</a></li>
+									<li><a href="contacto.html">Contacto</a></li>
+									<li><a href="#">Equipo</a></li>
+								</ul>
+							</div>
+
+							<div class="item_left">
+								<ul>
+									<li><a href="#">Aviso Legal</a></li>
+									<li><a href="#">Accesibilidad</a></li>
+									<li><a href="#">Protección de datos</a></li>
+								</ul>
+							</div>
+					</div>
+
+					<div class="about_subtitle">
+						<p>Copyright: <abbr title="Universitat Oberta de Catalunya">UOC</abbr> – Práctica Final de Lenguajes y estándares web (Diciembre - 2020)</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</body>
+
+</html>
